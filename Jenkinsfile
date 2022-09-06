@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh 'mvn install'
                 //docker build//
-                sh 'sudo docker build -t spring-petclinic .'
+                sh 'sudo -S docker build -t spring-petclinic .'
             }
         }
     }
