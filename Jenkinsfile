@@ -3,8 +3,8 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-               //maven artifacts to nexus repo//
-                sh 'mvn deploy'
+               //build//
+                sh 'mvn install'
                 //docker build//
                 sh 'docker build -t spring-petclinic .'
                 //configure//
