@@ -393,19 +393,6 @@
     </profile>
   </profiles>
   
-  <!-- Distribution managemnet -->
-  <distributionManagement>
-    <repository>
-        <id>petclinic-release</id>
-        <name>petclinic-release</name>
-        <url>http://13.234.120.104:8081/repository/petclinic-release/</url>
-    </repository>
-    <repository>
-        <id>petclinic-snapshot</id>
-        <name>petclinic-snapshot</name>
-        <url></url>
-    </repository>http://13.234.120.104:8081/repository/petclinic-snapshot/
-  </distributionManagement> 
   
 
 </project>
