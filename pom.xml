@@ -235,10 +235,7 @@
     </license>
   </licenses>
 
-  <!-- This plugin's configuration is used to store Eclipse m2e settings
-   only. It has no influence on the Maven build itself. -->
   <repositories>
-   <repositories>
     <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
@@ -275,7 +272,7 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-  
+
   <profiles>
     <profile>
       <id>css</id>
@@ -395,6 +392,5 @@
       </build>
     </profile>
   </profiles>
-  
 
 </project>
