@@ -4,7 +4,7 @@ pipeline{
         stage("Build"){
             steps{
                //build//
-                sh 'mvn install'
+                sh 'mvn deploy -Dskiptest -Dcheckstyle.skip'
                 //docker build//
                 sh 'docker build -t spring-petclinic .'
                 //docker run//
